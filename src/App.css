@@ -1,0 +1,153 @@
+body {
+  font-family: "Courier New", monospace;
+  background-color: #000000; 
+  color: #00FF00; 
+  text-align: center;
+}
+
+.dashboard {
+  padding: 20px;
+}
+
+.widget {
+  background-color: #004000; 
+  padding: 10px;
+  margin: 10px auto;
+  width: 60%;
+  border: 2px solid #00FF00; 
+}
+
+.editor-button {
+  background: #00FF00; 
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+}
+
+.editor-button a {
+  text-decoration: none;
+  color: #000000; 
+  font-weight: bold;
+}
+
+.editor {
+  padding: 20px;
+  text-align: center;
+}
+
+.editor-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.editor-input, .editor-preview {
+  width: 45%;
+}
+
+.editor-input textarea {
+  width: 100%;
+  height: 300px;
+  font-family: "Courier New", monospace;
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid #00FF00; 
+  background-color: #000000; 
+  color: #00FF00; 
+}
+
+.editor-preview {
+  padding: 20px;
+  border: 1px solid #00FF00; 
+  background-color: #000000; 
+  overflow-y: auto;
+}
+
+input[type="file"] {
+  display: none; 
+}
+
+.editor-button:hover {
+  background-color: #008000;
+}
+
+.editor-button:active {
+  background-color: #004000; 
+}
+
+.import-button {
+  background-color: #00FF00; 
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.import-button:hover {
+  background-color: #008000; 
+}
+
+.import-button:active {
+  background-color: #004000; 
+}
+
+.export-button {
+  background-color: #00FF00;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.export-button:hover {
+  background-color: #008000; 
+}
+
+.export-button:active {
+  background-color: #004000; 
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+li button {
+  background-color: #00FF00; 
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+li button:hover {
+  background-color: #008000; 
+}
+
+li button:active {
+  background-color: #004000; 
+}
+
+input[type="text"] {
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #00FF00; 
+  background-color: #000000; 
+  color: #00FF00; 
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #008000; 
+}
+
